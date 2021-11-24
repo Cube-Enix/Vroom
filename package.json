@@ -1,0 +1,24 @@
+{
+  "name": "vroom",
+  "version": "0.0.1",
+  "description": "\"The custom Scratch -> Node.js compiler made for SNext!\"",
+  "main": "src/project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShipmasterKyle/Vroom.git"
+  },
+  "keywords": [
+    "compiler",
+    "scratch2js"
+  ],
+  "author": "TeleKiwi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShipmasterKyle/Vroom/issues"
+  },
+  "homepage": "https://github.com/ShipmasterKyle/Vroom#readme",
+  "type": "module"
+}
