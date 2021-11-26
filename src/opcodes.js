@@ -1,4 +1,5 @@
-class opcodes {    
+class opcodes {
+    motion_movesteps = "motion_movesteps";    
     motion_turnright = "motion_turnright";
     motion_turnleft = "motion_turnleft";
     motion_goto = "motion_goto";
