@@ -1,3 +1,4 @@
-import * as opcodes from './src/opcodes.js';
+import * as opcodes from '../opcodes.js';
+import { variable, list } from '../data.js';
 
-export { opcodes };
+export { opcodes, variable, list };
