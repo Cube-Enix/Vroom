@@ -35,13 +35,17 @@ const blockMap = {
         input: { init: 15 }
     }, 
     [opcodes.motion_goto]: {
-        x: { init: 0 }, // temp values until projectwindow.js is made
-        y: { init: 0 }
+        input: { init: '_random_' }
     }, 
     [opcodes.motion_glideto]: {
-        x: { init: 0 }, // temp values until projectwindow.js is made
-        y: { init: 0 }
+        seconds: { init: 1 },
+        target: { init: '_random_' }
     }, 
+    [opcodes.motion_glidesecstoxy]: {
+        seconds: { init: 1 },
+        x: { init: 0 },
+        y: { init: 1 }
+    },
     [opcodes.motion_pointindirection]: {
         input: { init: 90 }
     }, 
