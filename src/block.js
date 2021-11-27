@@ -26,27 +26,27 @@ class blockfunctions {
 const blockMap = {
     // motion
     [opcodes.motion_movesteps]: {
-        input = { init = 10 }
+        input: { init: 10 }
     },
     [opcodes.motion_turnright]: {
-        input = { init = 15 }
+        input: { init: 15 }
     }, 
     [opcodes.motion_turnleft]: {
-        input = { init = 15 }
+        input: { init: 15 }
     }, 
     [opcodes.motion_goto]: {
-        x = { init = 0 }, // temp values until projectwindow.js is made
-        y = { init = 0 }
+        x: { init: 0 }, // temp values until projectwindow.js is made
+        y: { init: 0 }
     }, 
     [opcodes.motion_glideto]: {
-        x = { init = 0 }, // temp values until projectwindow.js is made
-        y = { init = 0 }
+        x: { init: 0 }, // temp values until projectwindow.js is made
+        y: { init: 0 }
     }, 
     [opcodes.motion_pointindirection]: {
-        input = { init = 90 }
+        input: { init: 90 }
     }, 
     [opcodes.motion_pointtowards]: {
-        input = { init = 90 }
+        input: { init: 90 }
     }, 
 }
 
