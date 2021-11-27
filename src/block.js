@@ -1,4 +1,4 @@
-import { opcodes } from "./misc/handleimports.js";
+import { opcodes } from "./handleimports.js";
 
 class blockfunctions {
     isValidBlock(opcode) {
